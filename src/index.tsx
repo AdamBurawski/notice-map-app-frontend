@@ -1,7 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import "./assets/styles/style.css";
+import "./assets/styles/layout.css";
+import "./components/layout/Header.css";
+import "./components/common/Btn.css";
+import "./components/Map/Map.css";
+
 import { App } from "./App";
 import reportWebVitals from "./reportWebVitals";
 
