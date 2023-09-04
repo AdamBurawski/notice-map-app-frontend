@@ -1,4 +1,10 @@
 header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 8vh;
+  z-index: 100000;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,4 +26,4 @@ header .search input {
   margin-right: 20px;
   border: none;
   border-radius: 3px;
-}/*# sourceMappingURL=header.css.map */
+}/*# sourceMappingURL=Header.css.map */
