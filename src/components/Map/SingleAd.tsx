@@ -31,7 +31,7 @@ export const SingleAd = (props: Props) => {
         </p>
       )}
       <hr />
-      <a href={ad.url} target="_blank">
+      <a href={ad.url} target="_blank" rel="noreferrer">
         Otwórz ogłoszenie
       </a>
     </>
