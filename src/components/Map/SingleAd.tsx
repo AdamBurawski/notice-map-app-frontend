@@ -23,7 +23,7 @@ export const SingleAd = (props: Props) => {
 
   return (
     <>
-      <h2>{ad.name}</h2>
+      <h3>{ad.name}</h3>
       <p>{ad.description}</p>
       {!!ad.price && (
         <p>

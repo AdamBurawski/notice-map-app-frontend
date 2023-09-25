@@ -5,6 +5,7 @@ import "./assets/styles/layout.css";
 import "./components/layout/Header.css";
 import "./components/common/Btn.css";
 import "./components/Map/Map.css";
+import "./components/AddForm/AddForm.css";
 
 import { App } from "./App";
 import reportWebVitals from "./reportWebVitals";

@@ -1,0 +1,33 @@
+.add-form,
+h2 {
+  position: relative;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 800px;
+  //   background-color: yellow;
+  p {
+    margin-top: 25px;
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 25px;
+      input,
+      textarea {
+        width: 100%;
+        margin-top: 25px;
+
+        padding: 10px;
+      }
+      em {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+      }
+    }
+  }
+  button {
+    padding: 10px;
+    width: 100%;
+  }
+}

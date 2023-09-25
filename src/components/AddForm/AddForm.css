@@ -1,0 +1,37 @@
+.add-form,
+h2 {
+  position: relative;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 800px;
+}
+.add-form p,
+h2 p {
+  margin-top: 25px;
+}
+.add-form p label,
+h2 p label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.add-form p label input,
+.add-form p label textarea,
+h2 p label input,
+h2 p label textarea {
+  width: 100%;
+  margin-top: 25px;
+  padding: 10px;
+}
+.add-form p label em,
+h2 p label em {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+}
+.add-form button,
+h2 button {
+  padding: 10px;
+  width: 100%;
+}/*# sourceMappingURL=AddForm.css.map */
