@@ -6,6 +6,7 @@ import { SearchContext } from "../../context/search.context";
 import styled from "styled-components";
 import { SimpleAdEntity } from "types";
 import { SingleAd } from "./SingleAd";
+import { apiUrl } from "../config/api";
 
 const SearchFor = styled.h2`
   position: relative;
@@ -22,7 +23,7 @@ export const Map = () => {
   useEffect(() => {
     console.log("Make request to search for", search);
     (async () => {
-      const res = await fetch(`http://localhost:3001/ad/search/${search}`);
+      const res = await fetch(`${apiUrl}/ad/search/${search}`);
       const data = await res.json();
 
       setAds(data);
