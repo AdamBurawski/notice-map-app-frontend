@@ -2,4 +2,9 @@
   width: 100vw;
   height: 100vh;
   background-color: yellowgreen;
+}
+
+.leaflet-container {
+  height: 92vh;
+  margin-top: 8vh;
 }/*# sourceMappingURL=Map.css.map */
